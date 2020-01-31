@@ -1,23 +1,50 @@
 body{
-    margin:0px; 
-    padding:0px; 
-    height:100%; 
-    background: url("https://webdevetc.com/blog_images/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html-pj2i500x333.jpg");
-    background-size: 355.2em; 
-    background-repeat: 
-    no-repeat; 
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #88d5e9;
+    color:#333;
+    font-family: "calibri";
+    font-weight: 400;;
+}
+#container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    flex:0 0 80%;
+
+}
+
+button{
+    display: block;
+    font:2rem;
+    margin:1rem auto;
+    padding:0.5rem 1rem;
+    color:#fff;
+    background: #6cc3d8;
+    border-radius: 10px;
+    border:none;
+}
+button:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+    input[type=text]{
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 5px;
+        font-size:1.5rem;
+        border: 3px solid #88d5e9;
+
     }
 
-img { width: 200px; 
-    height: 200px;
-    display:inline;
-    margin: 10px,auto 20px;
-     }
+    input[type=text]:focus{
+        box-shadow: 0 0 10px #88d5e9;
+    }
 
-.centrum{ font-size: 35px;
-    text-align: center;
-}
-#omega {text-align:center;
-}
-
-    
+    #messageOut{
+        margin:0.5rem 0;
+        color:#88d5e9;
+    }
