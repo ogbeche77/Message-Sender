@@ -1,18 +1,15 @@
-// mouse click event handler
-var imagess = document.getElementsByTagName ("img");
-for (var i = 0; i < imagess.length; i++) {
-    imagess [i].onclick = showAnswer;
-}
-function showAnswer(eventObj) {
-    var image = eventObj.target;
-    var name = image.id;
-    name = name + ".jpg + ";
-    image.src =name;
-}
+var buttonSender=document.querySelector("#buttonSend");
+var messageOne=document.querySelector("#messageInput");
+var messageTwo=document.querySelector("#messageOutput");
 
-function showAnswer(eventObj) {
-    var image = eventObj.target;
-    var name = image.id;
-    name = name + ".jpg + ";
-    image.src =name;
+buttonSender.addEventListener("click", messageSender)
+
+function messageSender(){
+    let content = messageOne.value;
+    if(content === ""){
+        alert("Enter Valid Value")
+    } else{
+    }
+    messageTwo.innerHTML = content;
+    messageOne.value = "";
 }
