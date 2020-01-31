@@ -6,6 +6,13 @@ for (var i = 0; i < imagess.length; i++) {
 function showAnswer(eventObj) {
     var image = eventObj.target;
     var name = image.id;
-    name = name + ".jpg";
+    name = name + ".jpg + ";
+    image.src =name;
+}
+
+function showAnswer(eventObj) {
+    var image = eventObj.target;
+    var name = image.id;
+    name = name + ".jpg + ";
     image.src =name;
 }
