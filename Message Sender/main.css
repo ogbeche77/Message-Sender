@@ -1,0 +1,23 @@
+body{
+    margin:0px; 
+    padding:0px; 
+    height:100%; 
+    background: url("https://webdevetc.com/blog_images/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html-pj2i500x333.jpg");
+    background-size: 355.2em; 
+    background-repeat: 
+    no-repeat; 
+    }
+
+img { width: 200px; 
+    height: 200px;
+    display:inline;
+    margin: 10px,auto 20px;
+     }
+
+.centrum{ font-size: 35px;
+    text-align: center;
+}
+#omega {text-align:center;
+}
+
+    
